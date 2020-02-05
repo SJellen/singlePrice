@@ -116,3 +116,133 @@ footer a {
     color: white;
     text-decoration: none;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 375px;
+        max-width: fit-content;
+        background-color: hsl(204, 43%, 93%);
+        font-size: 16px;
+        font-family: 'Karla', sans-serif;
+    }
+
+    .box {
+        margin-left: 25px;
+        height: 1000px;
+        width: 320px;
+        border-radius: 10px;
+}
+
+.top p {
+    color: hsl(218, 22%, 67%);
+    margin-left: 25px;
+    width: 265px;
+    font-size: medium;
+    line-height: 2;
+}
+
+.top h2 {
+    color: hsl(71, 73%, 54%);
+    margin-left: 25px;
+    font-size: large;
+}
+
+.top h1 {
+    color: hsl(179, 62%, 43%);
+    margin-left: 25px;
+    font-size: x-large;
+    margin-top: 5px;
+    
+}
+
+.top {
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px 0;
+    height: 270px;
+}
+
+
+
+.left {
+    background-color: hsl(179, 62%, 43%);
+    float: left;
+    color: white;
+    height: 253px;
+    width: 320px; 
+    border-bottom-left-radius: 0px;
+}
+
+.left h2 {
+    font-size: large;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+
+.left h1 {
+    margin-left: 25px;
+    margin-top: 5px;
+    
+}
+
+.left p {
+    margin-left: 25px;
+}
+
+.left .btn {
+    margin-left: 25px;
+    width: 270px;
+    height: 40px;
+    margin-top: 15px;;
+    font-size: medium;
+    color: white;
+    background-color: hsl(71, 73%, 54%);    
+}
+.left h3 {
+    opacity: .5;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+
+.right {
+    background-color: hsla(179, 62%, 43%, .75);
+    float: right;
+    color: white;
+    width: 320px;
+    height: 253px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.right h1 {
+    margin-left: 40px;
+    font-size: large;
+    margin-top: 45px;
+}
+
+.right ul {
+    opacity: .75;
+    list-style: none;
+}
+
+
+
+footer {
+    margin-top: -10px;
+    
+    
+}
+
+
+
+
+
+  }
