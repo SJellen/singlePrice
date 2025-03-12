@@ -8,8 +8,6 @@
 
 > A FrontEnd Mentor challange: SinglePrice
 
-### ✨ [Demo](https://complete-wish.surge.sh/)
-
 ## Author
 
 👤 **Scott Jellen**
